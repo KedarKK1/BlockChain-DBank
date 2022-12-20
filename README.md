@@ -6,10 +6,12 @@ Commands used by me -
     "esModuleInterop": true
  3. npm i @openzeppelin/contracts => install smart contrants fom openzeppelin, which provides some free contracts
  4. require("@nomiclabs/hardhat-waffle") in hardhat.config.js
- 5. npx hardhat run blockchain/scripts/deploy.js --network goerli (or run  npx hardhat run decentralized-bank/blockchain/scripts/deploy.js --network goerli (or whatever's name of that network))
-
-
+ 5. npx hardhat run blockchain/scripts/deploy.js --network goerli (or run  npx hardhat run decentralized-bank/blockchain/scripts/deploy.js --network goerli (or whatever's name of that network)) => output will be like 
+   Bank Contract was deployed to: 0x3552DEB6c962dC3445d26a0Bf592BB31c026A1b9
+   Token Contract was deployed to: 0x2F0AA6BEc1235E2e5c3cf3f7A1872ecd92dB54Ba
+6.  ng serve
 ```
+
 
 # Sample Hardhat Project
 
