@@ -5,7 +5,9 @@ Commands used by me -
     "resolveJsonModule": true,
     "esModuleInterop": true
  3. npm i @openzeppelin/contracts => install smart contrants fom openzeppelin, which provides some free contracts
- 4. 
+ 4. require("@nomiclabs/hardhat-waffle") in hardhat.config.js
+ 5. npx hardhat run blockchain/scripts/deploy.js --network goerli (or run  npx hardhat run decentralized-bank/blockchain/scripts/deploy.js --network goerli (or whatever's name of that network))
+
 
 ```
 
